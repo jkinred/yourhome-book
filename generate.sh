@@ -3,7 +3,6 @@
 mkdir -p download
 
 # Download all PDF pages from the download page
-
 wget --directory-prefix=./download --accept=pdf --mirror --level=0 --no-parent --no-directories https://web.archive.org/web/20191123111549/https://www.yourhome.gov.au/downloads
 
 # Download the print sample to get nice cover and intro pages
